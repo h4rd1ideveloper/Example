@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@9"></script>
+    <script src="sweetalert2.all.min.js"></script>
+<!-- Optional: include a polyfill for ES6 Promises for IE11 -->
+<script src="https://cdn.jsdelivr.net/npm/promise-polyfill"></script>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/sweetalert2@9.14.4/dist/sweetalert2.min.css" integrity="sha256-SutV/+zi8ZqR/DMls05A520rz+R2OZhqie0HnHPAlaQ=" crossorigin="anonymous">
+</head>
+<body>
+  <script>
+      (
+          function(){
+            Swal.fire(
+                'Sua loja foi registrada com sucesso',
+                `!Acessando seu perfil você pode inserir seus produtos e configurar suas <br/> formas de parcelamento e valores dos produtos`,
+                'success'
+            )
+          }
+      )()
+  </script>
+</body>
+</html>
